@@ -1,0 +1,20 @@
+# Input function input('Message')
+
+# name = input("Enter your name here: ")
+# print(f'Your name is {name}')
+
+# age = int(input("Enter your Birthyear: "))
+
+# print(f'You are {2023-age} years old')
+
+print("""
+  The aim of this code is to calculate the areas of rectangles, squares and circle
+""")
+
+length = int(input('Enter the length of the rectangle: '))
+breadth = int(input("Enter the breadth of the rectangle: "))
+
+area = length * breadth
+
+
+print(f'The area of a rectangle of length {length} and breadth {breadth} is {area}.')
